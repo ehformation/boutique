@@ -43,3 +43,6 @@ body{
     text-decoration: none;
     text-transform: uppercase;
 }
+.ai-center{
+    align-items: center;
+}
