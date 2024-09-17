@@ -25,7 +25,7 @@ h4{
     background-color: #c99947;
 }
 .bg-white{
-    background-color: #fff;
+    background-color: white;
 }
 .border-yellow{
     border: 1px solid #c99947;
@@ -35,6 +35,15 @@ h4{
 }
 .text-darkgrey{
     color: #aaaaaa;
+}
+.bold{
+    font-weight: bolder;
+}
+.condensed{
+    letter-spacing: -1px;
+}
+.size-13{
+    font-size: 13px;
 }
 .size-22{
     font-size: 22px;
