@@ -24,6 +24,12 @@ h4{
 .bg-yellow{
     background-color: #c99947;
 }
+.bg-white{
+    background-color: #fff;
+}
+.border-yellow{
+    border: 1px solid #c99947;
+}
 .text-white{
     color: white;
 }
@@ -60,6 +66,8 @@ h4{
 }
 .col-3{
     width: 25%;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 .flex{
     display: flex;
@@ -67,8 +75,15 @@ h4{
 .flex-wrap{
     flex-wrap: wrap;
 }
+.flex-row{
+    margin-right: -12px;
+    margin-left: -12px;
+}
 .jc-between{
     justify-content: space-between;
+}
+.jc-around{
+    justify-content: space-around;
 }
 #menu a{
     padding-right: 10px;
@@ -104,4 +119,26 @@ h4{
 .tag:hover{
     background-color: #c99947;
     color: white;
+}
+#social a {
+    display: block;
+    border: 4px solid #ccc;
+    padding: 17px 20px;
+    border-radius: 50%;
+    margin-right: 9px;
+}
+#social i{
+    font-size: 20px;
+    color: #ccc;
+}
+
+#social a:hover {
+    border-color: #c99947;
+}
+#social a:hover i{
+    color: #c99947;
+}
+#footer-top{
+    margin-top: -90px;
+    margin-bottom: 50px;
 }
