@@ -64,6 +64,9 @@ h4{
 .flex{
     display: flex;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 .jc-between{
     justify-content: space-between;
 }
