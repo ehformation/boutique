@@ -91,3 +91,14 @@ h4{
     padding: 4px 9px;
     margin-left: -7px;
 }
+.tag{
+    border: 1px solid #000;
+    padding: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.tag:hover{
+    background-color: #c99947;
+    color: white;
+}
