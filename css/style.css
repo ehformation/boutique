@@ -6,14 +6,26 @@ body{
 .bg-red{
     background-color: #d14b78;
 }
+.bg-yellow{
+    background-color: #c99947;
+}
 .text-white{
     color: white;
+}
+.text-darkgrey{
+    color: #aaaaaa;
+}
+.size-22{
+    font-size: 22px;
 }
 .text-center{
     text-align: center;
 }
 .uppercase {
     text-transform: uppercase;
+}
+.mr-10{
+    margin-right: 10px;
 }
 .pt-10{
     padding-top: 10px;
@@ -45,4 +57,19 @@ body{
 }
 .ai-center{
     align-items: center;
+}
+#search-form {
+    border: 0;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+}
+.search-icon{
+    margin-left: -21px;
+    color: #c7c7c7;
+}
+.bagde-cart {
+    font-size: 13px;
+    border-radius: 50%;
+    padding: 4px 9px;
+    margin-left: -7px;
 }
