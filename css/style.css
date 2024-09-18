@@ -236,3 +236,13 @@ a{
     font-size: 31px;
     padding-bottom: 13px;
 }
+.bg-sac, .bg-femme{
+    background-image: url("../img/sac.jpg");
+    height: 585px;
+    background-size: cover;
+    background-position: center;
+}
+.bg-femme{
+    background-image: url("../img/femme.png");
+    height: 300px;
+}
