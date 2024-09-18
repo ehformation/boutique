@@ -94,6 +94,9 @@ h4{
 .jc-around{
     justify-content: space-around;
 }
+.fullwidth{
+    width: 100%;
+}
 #menu a{
     padding-right: 10px;
     color: black;
