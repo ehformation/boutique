@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: "Lacompagnie";
+    src: url('../font/la\ Compagnie\ des\ Ombres.ttf');
+}
+
 * {
     box-sizing: border-box;
 }
@@ -38,6 +43,9 @@ h4{
 .border-yellow{
     border: 1px solid #c99947;
 }
+.font-lc{
+    font-family: 'Lacompagnie';
+}
 .text-white{
     color: white;
 }
@@ -55,6 +63,12 @@ h4{
 }
 .size-22{
     font-size: 22px;
+}
+.size-26{
+    font-size: 26px;
+}
+.size-28{
+    font-size: 28px;
 }
 .text-center{
     text-align: center;
