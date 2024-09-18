@@ -22,6 +22,9 @@ h3{
 h4{
     font-size: 22px;
 }
+a{
+    text-decoration: none;
+}
 .bg-red{
     background-color: #d14b78;
 }
@@ -49,8 +52,14 @@ h4{
 .text-white{
     color: white;
 }
+.text-black{ 
+    color: black;
+}
 .text-darkgrey{
     color: #aaaaaa;
+}
+.text-yellow{
+    color: #c99947;
 }
 .bold{
     font-weight: bolder;
@@ -70,11 +79,18 @@ h4{
 .size-28{
     font-size: 28px;
 }
+.size-60{
+    font-size: 60px;
+}
 .text-center{
     text-align: center;
 }
 .uppercase {
     text-transform: uppercase;
+}
+.sep{
+    width: 40px;
+    margin: 20px auto;
 }
 .mr-10{
     margin-right: 10px;
@@ -97,6 +113,16 @@ h4{
 }
 .col-3{
     width: 25%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-6{
+    width: 50%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-12{
+    width: 100%;
     padding-right: 12px;
     padding-left: 12px;
 }
