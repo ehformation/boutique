@@ -46,6 +46,9 @@ a{
 .border-yellow{
     border: 1px solid #c99947;
 }
+.border-yellow1{
+    border: 6px solid #c99947;
+}
 .font-lc{
     font-family: 'Lacompagnie';
 }
@@ -85,12 +88,21 @@ a{
 .text-center{
     text-align: center;
 }
+.text-right{
+    text-align: right;
+}
 .uppercase {
     text-transform: uppercase;
 }
 .sep{
     width: 40px;
     margin: 20px auto;
+}
+.p-20{
+    padding: 20px;
+}
+.m-20{
+    margin: 20px;
 }
 .mr-10{
     margin-right: 10px;
@@ -139,8 +151,14 @@ a{
     margin-right: -12px;
     margin-left: -12px;
 }
+.flex-column{
+    flex-direction: column;
+}
 .jc-between{
     justify-content: space-between;
+}
+.jc-center{
+    justify-content: center;
 }
 .jc-around{
     justify-content: space-around;
@@ -150,6 +168,9 @@ a{
 }
 .position-relative{
     position: relative;
+}
+.h300{
+    height: 300px;
 }
 #menu a{
     padding-right: 10px;
