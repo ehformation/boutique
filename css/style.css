@@ -180,12 +180,19 @@ h4{
     color: white;
     text-align: center;
     text-decoration: none;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: block;
     border-bottom: 1px solid #6d6d6d;
+}
+#side-nav ul li:last-child a {
+    border-bottom: none
 }
 #side-nav a:hover{
     color: white;
     background-color: #c99947;
+}
+#side-nav i{
+    font-size: 31px;
+    padding-bottom: 13px;
 }
