@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+* {
+    box-sizing: border-box;
+}
 body{
     font-family: "Montserrat", arial;
 }
@@ -26,6 +28,12 @@ h4{
 }
 .bg-white{
     background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-black1{
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .border-yellow{
     border: 1px solid #c99947;
@@ -81,6 +89,9 @@ h4{
 .flex{
     display: flex;
 }
+.block{
+    display: block;
+}
 .flex-wrap{
     flex-wrap: wrap;
 }
@@ -96,6 +107,9 @@ h4{
 }
 .fullwidth{
     width: 100%;
+}
+.position-relative{
+    position: relative;
 }
 #menu a{
     padding-right: 10px;
@@ -153,4 +167,25 @@ h4{
 #footer-top{
     margin-top: -90px;
     margin-bottom: 50px;
+}
+#side-nav{
+    padding: 40px 10px;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+#side-nav a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+    border-bottom: 1px solid #6d6d6d;
+}
+#side-nav a:hover{
+    color: white;
+    background-color: #c99947;
 }
