@@ -94,6 +94,9 @@ a{
 .uppercase {
     text-transform: uppercase;
 }
+.italic{
+    font-style: italic;
+}
 .sep{
     width: 40px;
     margin: 20px auto;
