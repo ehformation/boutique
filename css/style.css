@@ -122,12 +122,20 @@ a{
 .pb-40{
     padding-bottom: 40px;
 }
-.container{
-    width: 1024px;
-    margin: auto;
+.mb-10{
+    margin-bottom: 10px;
 }
+.mt-40{
+    margin-top: 40px;
+}
+
 .col-3{
     width: 25%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+.col-4{
+    width: 33.3333%;
     padding-right: 12px;
     padding-left: 12px;
 }
@@ -140,6 +148,9 @@ a{
     width: 100%;
     padding-right: 12px;
     padding-left: 12px;
+}
+.p-0{
+    padding: 0;
 }
 .flex{
     display: flex;
@@ -272,4 +283,14 @@ a{
 }
 .bg-femme1{
     background-image: url("../img/img3.jpg");
+}
+.container{
+    width: 100%;
+    margin: 0 20px;
+}
+@media screen and (min-width: 1024px){
+    .container{
+        width: 1024px;
+        margin: auto;
+    }
 }
