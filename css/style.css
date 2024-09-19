@@ -299,8 +299,17 @@ a{
 #minicart{
     border : 1px solid #000;
     width: 300px;
-    height: 300px;
+    position: absolute;
+    top: 15px;
+    left: -272px;
+    z-index: 1;
+    display: none;
 }
+#actions .fa-bag-shopping:hover ~ #minicart,
+#minicart:hover{
+    display: block;
+}
+
 .bouton{
     background-color: black;
     text-align: center;
