@@ -293,4 +293,10 @@ a{
         width: 1024px;
         margin: auto;
     }
+    .col-l-3{
+        width: 25%;
+    }
+    .col-l-2{
+        width: 16.666%;
+    }
 }
